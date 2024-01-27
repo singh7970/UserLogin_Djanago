@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our authentication App</h1>
+  
+</header>
+
+<main>
+    <h2>About Us</h2>
+    <p>This is a brief description of your website or organization. You can provide information about your mission, goals, or services.</p>
+
+    <h2>Featured Content</h2>
+    <p>Include any featured content, products, or services here.</p>
+    <a href='/login'>Bac to  Login</a>
+    <a href='/'>Back to Signup</a>
+    <a href="{% url 'logout'%}">logout</a> 
+
+
+
+
+
+    <h2>Contact Us</h2>
+    <p>My name is priyanshu singh</p>
+</main>
+
+<footer>
+    &copy; 2024 Website authentication App. All rights reserved to Priyanshu singh.
+</footer>
+
+</body>
+</html>
